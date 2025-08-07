@@ -78,7 +78,7 @@
   "19": {
     "description": "Remote server unable to update transmission log.",
     "action": "Check log file write access and disk space. Review 'fstserv.log'."
-  }
+  },
   "20": {
     "description": "Error accessing the dictionary on the remote machine.",
     "action": "Ensure dictionary is initialized, not locked, and remote admin has access. See Section 3-1."
@@ -158,7 +158,7 @@
   "39": {
     "description": "Error reading the local configuration file.",
     "action": "Check if the config file is present, well-formed, and readable. Restore from backup if needed."
-  }
+  },
   "40": {
     "description": "The specified transmission is not valid.",
     "action": "Check if the transmission is defined and includes files. Review dictionary setup."
