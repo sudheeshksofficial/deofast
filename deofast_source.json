@@ -1,0 +1,238 @@
+{
+  "0": {
+    "description": "Transmission or operation completed successfully. No issues encountered.",
+    "action": "No action needed. Transmission completed successfully."
+  },
+  "1": {
+    "description": "Unable to connect to the remote DEOFAST Server. Possible causes include network problems, incorrect IP address, unavailable remote machine, server not running, wrong TCP/IP port, or hostname resolution failure. Try executing 'ping' and 'fstping' for the remote machine. Contact the administrator of the remote site if the issue persists.",
+    "action": "Use 'ping' and 'fstping'. Check IP, port 31768, server status, and firewall settings. Refer to Section 1-2 of the manual."
+  },
+  "2": {
+    "description": "The server could not access its dictionary on the remote machine. Check the trace file 'fstserv.log' on the remote server. Contact the administrator of the remote site.",
+    "action": "Ask remote admin to check dictionary and review 'fstserv.log'. See Section 3-1 in the manual."
+  },
+  "3": {
+    "description": "Your site is unknown in the remote dictionary. Ensure the site name is correct and matches exactly (case-sensitive). Contact the administrator of the remote site to verify the dictionary entry.",
+    "action": "Confirm site is declared (case-sensitive) in remote dictionary. See Section 2-2."
+  },
+  "4": {
+    "description": "The file name is unknown in the remote dictionary. If declared mode is used, verify the file name (case-sensitive). If undeclared mode is expected, ensure the remote site allows undeclared files. Contact the administrator of the remote site.",
+    "action": "Ensure file is declared or undeclared files are accepted by remote. See Sections 2-3 and 2-4."
+  },
+  "5": {
+    "description": "The file has an incorrect status in the remote dictionary. It may not be processed or ready for transmission. Contact the administrator of the remote site to verify the file status.",
+    "action": "Ask remote admin to mark file READY-TO-SEND. Check dictionary editor. See Section 3-3."
+  },
+  "6": {
+    "description": "Cannot access the local file. The file may not exist or lack proper access rights. Verify its presence and permissions.",
+    "action": "Ensure file exists and has read/write permissions. Verify path."
+  },
+  "7": {
+    "description": "Cannot access the remote file. The file may be missing or inaccessible on the remote machine. Contact the administrator of the remote site.",
+    "action": "Ask remote admin to verify file path and permissions. See Section 2-6."
+  },
+  "8": {
+    "description": "Error returned by the TCP/IP interface. The transfer was aborted due to a network issue such as broken connection or timeout. Contact the administrator of the remote site if the issue is persistent.",
+    "action": "Check network status, restart DEOFAST client, review proxy/VPN settings."
+  },
+  "9": {
+    "description": "Cannot execute associated remote batch. The batch on the receiving machine failed to execute. Check the trace file 'fstserv.log' and contact the administrator of the remote site.",
+    "action": "Ensure remote batch is defined and has execution rights. Review 'fstserv.log'. See Section 3-6."
+  },
+  "10": {
+    "description": "Cannot copy Fxxxx to Sxxxx. Although the transfer succeeded, the backup operation failed. Contact the administrator of the remote site.",
+    "action": "Check backup directory, file lock, or access permissions. See Section 2-6."
+  },
+  "11": {
+    "description": "Error resetting file Fxxxx. The file was sent successfully but could not be reset to zero after backup. Contact the administrator of the remote site.",
+    "action": "Make sure the file can be truncated/reset. Check OS permissions."
+  },
+  "12": {
+    "description": "User interrupt. The transmission or operation was manually aborted.",
+    "action": "No action needed unless unintended."
+  },
+  "13": {
+    "description": "User interrupt before starting transfer. The transmission was aborted before initiation.",
+    "action": "No action needed unless unintended."
+  },
+  "14": {
+    "description": "Communication error occurred on the remote server. Network issues caused the transfer to abort. Check the trace file 'fstserv.log'. Contact the administrator of the remote site.",
+    "action": "Check logs on remote server. Ensure server is responsive. See Section 1-4."
+  },
+  "15": {
+    "description": "Cannot access reception file. The server encountered an error while reading or writing the file on the remote machine. Contact the administrator of the remote site.",
+    "action": "Check if file is locked or missing. Validate remote write access."
+  },
+  "16": {
+    "description": "Remote server was unable to export file. On HP3000/MPE systems, the file could not be copied to the output directory. Contact the administrator of the remote site.",
+    "action": "Verify MPE directory settings and environment configuration."
+  },
+  "17": {
+    "description": "Error initializing the connection. Possible causes include unknown host or other network errors. Check the trace file 'fstmon.log'. Contact the administrator of the remote site if needed.",
+    "action": "Check host name or use IP directly. Review 'fstmon.log'. See Section 1-3."
+  },
+  "18": {
+    "description": "A transfer is in progress. Retry later. This applies to the PC version.",
+    "action": "Wait for current session to finish. Avoid overlap. Check transfer monitor."
+  },
+  "19": {
+    "description": "Remote server was unable to update the transmission log. Although the transfer succeeded, the log entry failed. Contact the administrator of the remote site.",
+    "action": "Check log file write access and disk space. Review 'fstserv.log'."
+  },
+  "20": {
+    "description": "Error accessing the dictionary on the remote machine. Check the trace file 'fstserv.log'. Contact the administrator of the remote site.",
+    "action": "Ensure dictionary is initialized, not locked, and remote admin has access. See Section 3-1."
+  },
+  "21": {
+    "description": "Rotation of remote files failed. The transmitted file could not be backed up. Contact the administrator of the remote site.",
+    "action": "Check remote backup and archive directory settings. Ensure server has write access."
+  },
+  "22": {
+    "description": "File picking is not allowed by the remote site. Your site is not authorized to receive files in PC RECEIVE mode. Contact the administrator of the remote site.",
+    "action": "Ensure 'Allow file picking' is enabled in remote server settings. Ask admin to check site policies."
+  },
+  "23": {
+    "description": "Cannot connect to the database. Check the error message returned by Ingres, SQL Server, or Oracle. Contact the administrator if necessary.",
+    "action": "Verify DB service is running, credentials are correct, and connection string is valid. Review DB logs."
+  },
+  "24": {
+    "description": "Wrong password. Enter the correct password to proceed.",
+    "action": "Check the dictionary login credentials and remote user rights. Ensure password matches the remote definition."
+  },
+  "25": {
+    "description": "Invalid transmission name or transmission is empty. Verify the name and contents in the dictionary.",
+    "action": "Define a valid transmission in the dictionary with at least one file."
+  },
+  "26": {
+    "description": "Corrupted record found in the local dictionary. Restore from backup or contact the support team.",
+    "action": "Rebuild or reinitialize dictionary. Backup data first. Contact system administrator."
+  },
+  "27": {
+    "description": "Site, file, or transmission name already exists. You tried to rename or copy to an existing name.",
+    "action": "Use a unique name when creating new entries. Check for duplicates in dictionary."
+  },
+  "28": {
+    "description": "Cannot create directory. Check permissions and path validity.",
+    "action": "Check folder path, permissions, and disk space on the system."
+  },
+  "29": {
+    "description": "Cannot delete directory. The directory may be in use or protected.",
+    "action": "Ensure directory is empty and not in use. Check access rights."
+  },
+  "30": {
+    "description": "Cannot rename directory. Ensure the directory exists and is not locked.",
+    "action": "Target name may already exist or folder is locked. Confirm permissions."
+  },
+  "31": {
+    "description": "Cannot create file. Check permissions and available space.",
+    "action": "Check for permission errors or disk full condition. Validate path and access rights."
+  },
+  "32": {
+    "description": "Cannot delete file. The file could not be removed after transmission. Contact the administrator of the remote site if deletion is managed remotely.",
+    "action": "Ensure file is not locked or in use by another process. Check delete permissions."
+  },
+  "33": {
+    "description": "Cannot rename file. Ensure the file exists and is not locked.",
+    "action": "Target file may exist or original is locked. Check file system access and naming conflicts."
+  },
+  "34": {
+    "description": "Local dictionary not initialized. Use DEO-FAST Manager to initialize or reload it.",
+    "action": "Run dictionary initialization from the DEOFAST UI or setup wizard."
+  },
+  "35": {
+    "description": "Invalid or empty family specified. Check the dictionary for correct family name and contents.",
+    "action": "Ensure the family name exists and has associated files in the dictionary."
+  },
+  "36": {
+    "description": "Remote server failed to insert element in receiving queue. Check the trace file 'fstserv.log'. Contact the administrator of the remote site.",
+    "action": "Remote queue may be full or DB error occurred. Check 'fstserv.log'."
+  },
+  "37": {
+    "description": "Record not found in the queue. The file you tried to update or remove doesn't exist.",
+    "action": "Verify if transmission ID still exists. May have already been processed or deleted."
+  },
+  "38": {
+    "description": "Error accessing local dictionary. Refer to database error messages from Ingres, SQL Server, or Oracle.",
+    "action": "Ensure database engine is running. Validate access and integrity of dictionary files."
+  },
+  "39": {
+    "description": "Invalid site name in local dictionary. The site name is either incorrect or undeclared.",
+    "action": "Check if the config file is present, well-formed, and readable. Restore from backup if needed."
+  },
+  "40": {
+    "description": "Invalid file name. It may exceed character limits or be undeclared in the dictionary.",
+    "action": "Check if the transmission is defined and includes files. Review dictionary setup."
+  },
+  "41": {
+    "description": "Local file not ready for transmission. Run 'synchro' to update its status.",
+    "action": "Check network stability, firewall rules, or extend timeout settings in configuration."
+  },
+  "42": {
+    "description": "Error during file transfer. Check monitor messages or 'fstmon.log' for details.",
+    "action": "Check system logs. Could be due to memory, disk, or unknown software issue."
+  },
+  "43": {
+    "description": "Remote site name not recognized in remote dictionary. Ensure exact match (case-sensitive). Contact the administrator of the remote site.",
+    "action": "Close other dictionary sessions. Wait and retry. Check for orphaned locks."
+  },
+  "44": {
+    "description": "Remote dictionary not initialized. The remote administrator must initialize or reload it using DEO-FAST Manager.",
+    "action": "Ensure the file format matches what is expected (binary/text/recorded)."
+  },
+  "45": {
+    "description": "Remote server cannot connect to DEO-FAST database. Check the trace file 'fstserv.log'. Contact the administrator of the remote site.",
+    "action": "Limit concurrent users or increase server max connection limit in configuration."
+  },
+  "46": {
+    "description": "Attached file name is declared in remote dictionary. Declared files must not be attached. Contact the administrator of the remote site.",
+    "action": "Restore from a backup or reinitialize the dictionary after saving data."
+  },
+  "47": {
+    "description": "Cannot execute local batch associated with transmission. Check monitor messages or 'fstmon.log'.",
+    "action": "Free up space on the system drive or transfer/output directories."
+  },
+  "48": {
+    "description": "Local dictionary version mismatch. Convert the dictionary or upgrade DEO-FAST accordingly. Refer to the installation manual.",
+    "action": "Close other programs or increase system RAM. Retry after reboot."
+  },
+  "49": {
+    "description": "Remote dictionary version mismatch. Contact the remote administrator to update or convert the dictionary.",
+    "action": "You may lack privileges to perform the task. Run as administrator or contact admin."
+  },
+  "50": {
+    "description": "Corrupted record in remote dictionary. Restore from backup or contact the support team.",
+    "action": "Convert to a supported format or check file extension configuration."
+  },
+  "51": {
+    "description": "Attached file name is declared in local dictionary. Declared files must not be attached.",
+    "action": "Shorten directory or file names. Use paths under OS limits."
+  },
+  "52": {
+    "description": "Dictionary must be password-protected to execute command. Set a password under General parameters.",
+    "action": "Validate NTFS or share permissions for involved folders/files."
+  },
+  "53": {
+    "description": "Command not available from executive. Refer to online help for supported commands.",
+    "action": "Check your connection, gateway, and IP settings. Run diagnostics."
+  },
+  "54": {
+    "description": "File already in sending queue. Previous file with same name is pending or errored. Resolve before retrying. See section 4-2 for queue management.",
+    "action": "Ensure client and server versions are compatible. Restart services if needed."
+  },
+  "55": {
+    "description": "Physical file does not exist. The file you tried to delete is missing from the directory.",
+    "action": "Close applications using the file. Retry once file lock is released."
+  },
+  "56": {
+    "description": "The system clock is incorrect.",
+    "action": "Review config files or settings in the DEOFAST UI. Fix missing or invalid values."
+  },
+  "57": {
+    "description": "License error.",
+    "action": "Validate or renew the DEOFAST license file. Contact vendor if expired."
+  },
+  "58": {
+    "description": "The system clock is incorrect.",
+    "action": "Sync system date/time. Incorrect clocks can cause issues with SSL or logs."
+  }
+}
