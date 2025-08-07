@@ -1,0 +1,478 @@
+{
+  "1": {
+    "description": "Error opening the licence file or environment variable FSTPATH is missing.",
+    "suggested_action": "No specific action suggested."
+  },
+  "2": {
+    "description": "- 2  General licence errors",
+    "suggested_action": "No specific action suggested."
+  },
+  "4": {
+    "description": "- 3  Error \"Ordinal Not Found\" from DEO-FAST Manager",
+    "suggested_action": "No specific action suggested."
+  },
+  "0": {
+    "description": "OK",
+    "suggested_action": "No specific action suggested."
+  },
+  "3": {
+    "description": "Invalid product name.",
+    "suggested_action": "No specific action suggested."
+  },
+  "5": {
+    "description": "The code you entered is invalid. Run the program again and enter a new code.",
+    "suggested_action": "entered is invalid. Run the program again and enter a new code."
+  },
+  "6": {
+    "description": "Error writing the licence file.",
+    "suggested_action": "No specific action suggested."
+  },
+  "7": {
+    "description": "The CPU identification of the licence does not correspond to the machine.",
+    "suggested_action": "No specific action suggested."
+  },
+  "8": {
+    "description": "Error returned by the TCP/IP interface",
+    "suggested_action": "No specific action suggested."
+  },
+  "9": {
+    "description": "Cannot execute associate remote batch",
+    "suggested_action": "execute associate remote batch"
+  },
+  "10": {
+    "description": "Cannot copy Fxxxx to Sxxxx",
+    "suggested_action": "copy Fxxxx to Sxxxx"
+  },
+  "11": {
+    "description": "There was an error resetting the file Fxxxx",
+    "suggested_action": "setting the file Fxxxx"
+  },
+  "12": {
+    "description": "User interrupt",
+    "suggested_action": "User interrupt"
+  },
+  "13": {
+    "description": "User interrupt before starting transfer",
+    "suggested_action": "User interrupt before starting transfer"
+  },
+  "14": {
+    "description": "A communication error occurred on the remote server",
+    "suggested_action": "No specific action suggested."
+  },
+  "15": {
+    "description": "Cannot access reception file",
+    "suggested_action": "No specific action suggested."
+  },
+  "16": {
+    "description": "Remote server was unable to export file",
+    "suggested_action": "No specific action suggested."
+  },
+  "17": {
+    "description": "Error initializing the connection",
+    "suggested_action": "No specific action suggested."
+  },
+  "18": {
+    "description": "A transfer is in progress, retry later",
+    "suggested_action": "try later"
+  },
+  "19": {
+    "description": "Remote server was unable to update the transmission log",
+    "suggested_action": "No specific action suggested."
+  },
+  "20": {
+    "description": "Error accessing the dictionary on the remote machine",
+    "suggested_action": "No specific action suggested."
+  },
+  "21": {
+    "description": "The rotation of the remote files has failed",
+    "suggested_action": "No specific action suggested."
+  },
+  "22": {
+    "description": "File picking is not allowed by the remote site",
+    "suggested_action": "No specific action suggested."
+  },
+  "23": {
+    "description": "Cannot connect to the database",
+    "suggested_action": "No specific action suggested."
+  },
+  "24": {
+    "description": "Wrong password",
+    "suggested_action": "No specific action suggested."
+  },
+  "25": {
+    "description": "Invalid transmission name or transmission is empty",
+    "suggested_action": "No specific action suggested."
+  },
+  "26": {
+    "description": "A corrupted record has been found in the local dictionary",
+    "suggested_action": "No specific action suggested."
+  },
+  "27": {
+    "description": "The site, file or transmission name already exists",
+    "suggested_action": "No specific action suggested."
+  },
+  "28": {
+    "description": "Cannot create directory",
+    "suggested_action": "No specific action suggested."
+  },
+  "29": {
+    "description": "Cannot delete directory",
+    "suggested_action": "delete directory"
+  },
+  "30": {
+    "description": "Cannot rename directory",
+    "suggested_action": "No specific action suggested."
+  },
+  "31": {
+    "description": "Cannot create file",
+    "suggested_action": "No specific action suggested."
+  },
+  "32": {
+    "description": "Cannot delete file",
+    "suggested_action": "delete file"
+  },
+  "33": {
+    "description": "Cannot rename file",
+    "suggested_action": "No specific action suggested."
+  },
+  "34": {
+    "description": "The local dictionary has not been initialized",
+    "suggested_action": "initialized"
+  },
+  "35": {
+    "description": "The family specified is invalid or contains no file",
+    "suggested_action": "No specific action suggested."
+  },
+  "36": {
+    "description": "Remote server was unable to insert element in the receiving queue",
+    "suggested_action": "insert element in the receiving queue"
+  },
+  "37": {
+    "description": "Record not found in the queue",
+    "suggested_action": "No specific action suggested."
+  },
+  "38": {
+    "description": "Error accessing local dictionary",
+    "suggested_action": "No specific action suggested."
+  },
+  "39": {
+    "description": "The site name is invalid in the local dictionary",
+    "suggested_action": "No specific action suggested."
+  },
+  "40": {
+    "description": "Invalid file name",
+    "suggested_action": "No specific action suggested."
+  },
+  "41": {
+    "description": "The local file has not the right status",
+    "suggested_action": "No specific action suggested."
+  },
+  "42": {
+    "description": "Error during the transfer of the file",
+    "suggested_action": "No specific action suggested."
+  },
+  "43": {
+    "description": "The name of the remote site in the remote dictionary is not recognized",
+    "suggested_action": "No specific action suggested."
+  },
+  "44": {
+    "description": "Remote dictionary has not been initialized",
+    "suggested_action": "initialized"
+  },
+  "45": {
+    "description": "Remote server cannot connect to remote DEO-FAST database",
+    "suggested_action": "No specific action suggested."
+  },
+  "46": {
+    "description": "Attached file name is declared in the remote dictionary",
+    "suggested_action": "No specific action suggested."
+  },
+  "47": {
+    "description": "Cannot execute the local batch associated to the transmission",
+    "suggested_action": "execute the local batch associated to the transmission"
+  },
+  "48": {
+    "description": "The local dictionary is not at the right version",
+    "suggested_action": "No specific action suggested."
+  },
+  "49": {
+    "description": "The remote dictionary is not at the right version",
+    "suggested_action": "No specific action suggested."
+  },
+  "50": {
+    "description": "A corrupted record has been found in the remote dictionary",
+    "suggested_action": "No specific action suggested."
+  },
+  "51": {
+    "description": "Attached file name is declared in the local dictionary",
+    "suggested_action": "No specific action suggested."
+  },
+  "52": {
+    "description": "The dictionary must be password-protected to execute a command",
+    "suggested_action": "execute a command"
+  },
+  "53": {
+    "description": "Command not available from executive",
+    "suggested_action": "No specific action suggested."
+  },
+  "54": {
+    "description": "The file to insert is already in the sending queue",
+    "suggested_action": "insert is already in the sending queue"
+  },
+  "55": {
+    "description": "The physical file does not exist",
+    "suggested_action": "No specific action suggested."
+  },
+  "56": {
+    "description": "The remote site does not recognize your IP address",
+    "suggested_action": "No specific action suggested."
+  },
+  "57": {
+    "description": "No file matches the specified pattern",
+    "suggested_action": "No specific action suggested."
+  },
+  "58": {
+    "description": "Remote directory scanning is not allowed by the remote site",
+    "suggested_action": "No specific action suggested."
+  },
+  "100": {
+    "description": "Cannot get FSTDIR variable",
+    "suggested_action": "No specific action suggested."
+  },
+  "101": {
+    "description": "Cannot get FSTPATH variable",
+    "suggested_action": "No specific action suggested."
+  },
+  "102": {
+    "description": "Cannot access the dictionary FSTDICT",
+    "suggested_action": "No specific action suggested."
+  },
+  "103": {
+    "description": "Error accessing message file",
+    "suggested_action": "No specific action suggested."
+  },
+  "104": {
+    "description": "Error opening the log file FSTHIST",
+    "suggested_action": "No specific action suggested."
+  },
+  "105": {
+    "description": "Incorrect command syntax",
+    "suggested_action": "No specific action suggested."
+  },
+  "106": {
+    "description": "Invalid timeout value or waiting time value",
+    "suggested_action": "No specific action suggested."
+  },
+  "107": {
+    "description": "Invalid number of retries",
+    "suggested_action": "No specific action suggested."
+  },
+  "108": {
+    "description": "Invalid transmission mode",
+    "suggested_action": "No specific action suggested."
+  },
+  "109": {
+    "description": "The name of the file and/or the name of the site has not been specified",
+    "suggested_action": "No specific action suggested."
+  },
+  "110": {
+    "description": "Invalid buffer size",
+    "suggested_action": "No specific action suggested."
+  },
+  "111": {
+    "description": "Cannot allocate memory",
+    "suggested_action": "No specific action suggested."
+  },
+  "112": {
+    "description": "Invalid file type",
+    "suggested_action": "No specific action suggested."
+  },
+  "113": {
+    "description": "Invalid starting time",
+    "suggested_action": "No specific action suggested."
+  },
+  "114": {
+    "description": "Invalid acknowledgment frequency",
+    "suggested_action": "No specific action suggested."
+  },
+  "115": {
+    "description": "Cannot open \"fstmon.log\" trace file",
+    "suggested_action": "No specific action suggested."
+  },
+  "116": {
+    "description": "License is invalid or does not exist",
+    "suggested_action": "No specific action suggested."
+  },
+  "117": {
+    "description": "Fatal system error",
+    "suggested_action": "No specific action suggested."
+  },
+  "118": {
+    "description": "Invalid transmission type",
+    "suggested_action": "No specific action suggested."
+  },
+  "119": {
+    "description": "Database name is missing",
+    "suggested_action": "No specific action suggested."
+  },
+  "121": {
+    "description": "System error creating process",
+    "suggested_action": "No specific action suggested."
+  },
+  "122": {
+    "description": "Environment variable not set",
+    "suggested_action": "set"
+  },
+  "123": {
+    "description": "Syntax error in FSTDICT file on PC",
+    "suggested_action": "No specific action suggested."
+  },
+  "124": {
+    "description": "No record found in log for the specified conditions",
+    "suggested_action": "No specific action suggested."
+  },
+  "125": {
+    "description": "System error encountered by the remote server",
+    "suggested_action": "No specific action suggested."
+  },
+  "150": {
+    "description": "Error reading or writing file FSTHIST",
+    "suggested_action": "No specific action suggested."
+  },
+  "151": {
+    "description": "Error reading or writing file FSTDICT",
+    "suggested_action": "No specific action suggested."
+  },
+  "152": {
+    "description": "Error reading message file FSTCAT??",
+    "suggested_action": "No specific action suggested."
+  },
+  "200": {
+    "description": "Error gethostbyname.",
+    "suggested_action": "No specific action suggested."
+  },
+  "201": {
+    "description": "Error on \"socket\" function.",
+    "suggested_action": "No specific action suggested."
+  },
+  "202": {
+    "description": "Error on \"ioctl\" function.",
+    "suggested_action": "No specific action suggested."
+  },
+  "203": {
+    "description": "Error read (select).",
+    "suggested_action": "No specific action suggested."
+  },
+  "204": {
+    "description": "Error read (recv).",
+    "suggested_action": "No specific action suggested."
+  },
+  "205": {
+    "description": "Error write (select).",
+    "suggested_action": "No specific action suggested."
+  },
+  "206": {
+    "description": "Error write (send).",
+    "suggested_action": "No specific action suggested."
+  },
+  "207": {
+    "description": "Error connect (select).",
+    "suggested_action": "No specific action suggested."
+  },
+  "208": {
+    "description": "Error connect.",
+    "suggested_action": "No specific action suggested."
+  },
+  "209": {
+    "description": "Corrupted message received (no banner).",
+    "suggested_action": "No specific action suggested."
+  },
+  "210": {
+    "description": "Error getpeername.",
+    "suggested_action": "No specific action suggested."
+  },
+  "211": {
+    "description": "Error on Winsock WSAStartup function.",
+    "suggested_action": "No specific action suggested."
+  },
+  "212": {
+    "description": "Error on \"bind\" function.",
+    "suggested_action": "No specific action suggested."
+  },
+  "220": {
+    "description": "Could not encrypt file (invalid Key ID).",
+    "suggested_action": "No specific action suggested."
+  },
+  "221": {
+    "description": "Could not encrypt file (other errors).",
+    "suggested_action": "No specific action suggested."
+  },
+  "222": {
+    "description": "Could not decrypt file (invalid passphrase).",
+    "suggested_action": "No specific action suggested."
+  },
+  "223": {
+    "description": "Could not decrypt file (key not available in keyring).",
+    "suggested_action": "No specific action suggested."
+  },
+  "224": {
+    "description": "Could not decrypt file (cancelled by user).",
+    "suggested_action": "user)."
+  },
+  "225": {
+    "description": "Could not decrypt file (other errors).",
+    "suggested_action": "No specific action suggested."
+  },
+  "226": {
+    "description": "Warning: received file is not encrypted or has been corrupted.",
+    "suggested_action": "No specific action suggested."
+  },
+  "227": {
+    "description": "Could not initialize PGP.",
+    "suggested_action": "initialize PGP."
+  },
+  "228": {
+    "description": "Could not load the specified PGP configuration file.",
+    "suggested_action": "No specific action suggested."
+  },
+  "229": {
+    "description": "Error opening the keyring.",
+    "suggested_action": "No specific action suggested."
+  },
+  "230": {
+    "description": "Key not available in keyring.",
+    "suggested_action": "No specific action suggested."
+  },
+  "231": {
+    "description": "Passphrase input error or invalid length (must be within 1 to 80 characters).",
+    "suggested_action": "No specific action suggested."
+  },
+  "232": {
+    "description": "Could not generate key  (passphrase too short).",
+    "suggested_action": "No specific action suggested."
+  },
+  "233": {
+    "description": "Could not generate key (inadequate passphrase quality).",
+    "suggested_action": "No specific action suggested."
+  },
+  "234": {
+    "description": "Could not generate key (other errors).",
+    "suggested_action": "No specific action suggested."
+  },
+  "235": {
+    "description": "Could not export key.",
+    "suggested_action": "No specific action suggested."
+  },
+  "236": {
+    "description": "Could not import key into keyring.",
+    "suggested_action": "No specific action suggested."
+  },
+  "237": {
+    "description": "Could not delete key from keyring.",
+    "suggested_action": "delete key from keyring."
+  },
+  "19703": {
+    "description": "Login failed for user 'deo'.",
+    "suggested_action": "user 'deo'."
+  }
+}
