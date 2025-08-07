@@ -1,0 +1,238 @@
+{
+  "0": {
+    "description": "Transmission or operation completed successfully.",
+    "action": "No action needed. Transmission completed successfully."
+  },
+  "1": {
+    "description": "Unable to connect to the remote Deofast Server. Possible causes include: network issue, incorrect destination IP, remote server down, or port/firewall blockage.",
+    "action": "Use 'ping' and 'fstping'. Check IP, port 31768, server status, and firewall settings. Refer to Section 1-2 of the manual."
+  },
+  "2": {
+    "description": "The server could not access its dictionary on the remote machine.",
+    "action": "Ask remote admin to check dictionary and review 'fstserv.log'. See Section 3-1 in the manual."
+  },
+  "3": {
+    "description": "Your site is unknown in the remote dictionary.",
+    "action": "Confirm site is declared (case-sensitive) in remote dictionary. See Section 2-2."
+  },
+  "4": {
+    "description": "The file name is unknown in the remote dictionary.",
+    "action": "Ensure file is declared or undeclared files are accepted by remote. See Sections 2-3 and 2-4."
+  },
+  "5": {
+    "description": "The file has a wrong status in the remote dictionary.",
+    "action": "Ask remote admin to mark file READY-TO-SEND. Check dictionary editor. See Section 3-3."
+  },
+  "6": {
+    "description": "Cannot access the local file.",
+    "action": "Ensure file exists and has read/write permissions. Verify path."
+  },
+  "7": {
+    "description": "Cannot access the remote file.",
+    "action": "Ask remote admin to verify file path and permissions. See Section 2-6."
+  },
+  "8": {
+    "description": "Error returned by the TCP/IP interface.",
+    "action": "Check network status, restart DEOFAST client, review proxy/VPN settings."
+  },
+  "9": {
+    "description": "Cannot execute associated remote batch.",
+    "action": "Ensure remote batch is defined and has execution rights. Review 'fstserv.log'. See Section 3-6."
+  },
+  "10": {
+    "description": "Cannot copy Fxxxx to Sxxxx.",
+    "action": "Check backup directory, file lock, or access permissions. See Section 2-6."
+  },
+  "11": {
+    "description": "Error resetting file Fxxxx.",
+    "action": "Make sure the file can be truncated/reset. Check OS permissions."
+  },
+  "12": {
+    "description": "User interrupt.",
+    "action": "No action needed unless unintended."
+  },
+  "13": {
+    "description": "User interrupt before starting transfer.",
+    "action": "No action needed unless unintended."
+  },
+  "14": {
+    "description": "Communication error on the remote server.",
+    "action": "Check logs on remote server. Ensure server is responsive. See Section 1-4."
+  },
+  "15": {
+    "description": "Cannot access reception file.",
+    "action": "Check if file is locked or missing. Validate remote write access."
+  },
+  "16": {
+    "description": "Remote server unable to export file (HP3000/MPE).",
+    "action": "Verify MPE directory settings and environment configuration."
+  },
+  "17": {
+    "description": "Error initializing the connection.",
+    "action": "Check host name or use IP directly. Review 'fstmon.log'. See Section 1-3."
+  },
+  "18": {
+    "description": "A transfer is in progress, retry later.",
+    "action": "Wait for current session to finish. Avoid overlap. Check transfer monitor."
+  },
+  "19": {
+    "description": "Remote server unable to update transmission log.",
+    "action": "Check log file write access and disk space. Review 'fstserv.log'."
+  }
+  "20": {
+    "description": "Error accessing the dictionary on the remote machine.",
+    "action": "Ensure dictionary is initialized, not locked, and remote admin has access. See Section 3-1."
+  },
+  "21": {
+    "description": "The rotation of the remote files has failed.",
+    "action": "Check remote backup and archive directory settings. Ensure server has write access."
+  },
+  "22": {
+    "description": "File picking is not allowed by the remote site.",
+    "action": "Ensure 'Allow file picking' is enabled in remote server settings. Ask admin to check site policies."
+  },
+  "23": {
+    "description": "Cannot connect to the database.",
+    "action": "Verify DB service is running, credentials are correct, and connection string is valid. Review DB logs."
+  },
+  "24": {
+    "description": "Wrong password.",
+    "action": "Check the dictionary login credentials and remote user rights. Ensure password matches the remote definition."
+  },
+  "25": {
+    "description": "Invalid transmission name or empty transmission.",
+    "action": "Define a valid transmission in the dictionary with at least one file."
+  },
+  "26": {
+    "description": "A corrupted record has been found in the local dictionary.",
+    "action": "Rebuild or reinitialize dictionary. Backup data first. Contact system administrator."
+  },
+  "27": {
+    "description": "The site, file, or transmission name already exists.",
+    "action": "Use a unique name when creating new entries. Check for duplicates in dictionary."
+  },
+  "28": {
+    "description": "Cannot create directory.",
+    "action": "Check folder path, permissions, and disk space on the system."
+  },
+  "29": {
+    "description": "Cannot delete directory.",
+    "action": "Ensure directory is empty and not in use. Check access rights."
+  },
+  "30": {
+    "description": "Cannot rename directory.",
+    "action": "Target name may already exist or folder is locked. Confirm permissions."
+  },
+  "31": {
+    "description": "Cannot create file.",
+    "action": "Check for permission errors or disk full condition. Validate path and access rights."
+  },
+  "32": {
+    "description": "Cannot delete file after successful transfer.",
+    "action": "Ensure file is not locked or in use by another process. Check delete permissions."
+  },
+  "33": {
+    "description": "Cannot rename file.",
+    "action": "Target file may exist or original is locked. Check file system access and naming conflicts."
+  },
+  "34": {
+    "description": "The local dictionary has not been initialized.",
+    "action": "Run dictionary initialization from the DEOFAST UI or setup wizard."
+  },
+  "35": {
+    "description": "The family specified is invalid or contains no file.",
+    "action": "Ensure the family name exists and has associated files in the dictionary."
+  },
+  "36": {
+    "description": "Remote server unable to insert element in receiving queue.",
+    "action": "Remote queue may be full or DB error occurred. Check 'fstserv.log'."
+  },
+  "37": {
+    "description": "Record not found in the queue.",
+    "action": "Verify if transmission ID still exists. May have already been processed or deleted."
+  },
+  "38": {
+    "description": "Error accessing local dictionary.",
+    "action": "Ensure database engine is running. Validate access and integrity of dictionary files."
+  },
+  "39": {
+    "description": "Error reading the local configuration file.",
+    "action": "Check if the config file is present, well-formed, and readable. Restore from backup if needed."
+  }
+  "40": {
+    "description": "The specified transmission is not valid.",
+    "action": "Check if the transmission is defined and includes files. Review dictionary setup."
+  },
+  "41": {
+    "description": "Transfer aborted due to timeout.",
+    "action": "Check network stability, firewall rules, or extend timeout settings in configuration."
+  },
+  "42": {
+    "description": "Unexpected error in transfer.",
+    "action": "Check system logs. Could be due to memory, disk, or unknown software issue."
+  },
+  "43": {
+    "description": "Cannot lock the dictionary.",
+    "action": "Close other dictionary sessions. Wait and retry. Check for orphaned locks."
+  },
+  "44": {
+    "description": "Invalid file format.",
+    "action": "Ensure the file format matches what is expected (binary/text/recorded)."
+  },
+  "45": {
+    "description": "Maximum number of connections reached.",
+    "action": "Limit concurrent users or increase server max connection limit in configuration."
+  },
+  "46": {
+    "description": "The dictionary file is corrupted.",
+    "action": "Restore from a backup or reinitialize the dictionary after saving data."
+  },
+  "47": {
+    "description": "Disk full.",
+    "action": "Free up space on the system drive or transfer/output directories."
+  },
+  "48": {
+    "description": "Insufficient memory.",
+    "action": "Close other programs or increase system RAM. Retry after reboot."
+  },
+  "49": {
+    "description": "Operation not permitted.",
+    "action": "You may lack privileges to perform the task. Run as administrator or contact admin."
+  },
+  "50": {
+    "description": "Unsupported file type.",
+    "action": "Convert to a supported format or check file extension configuration."
+  },
+  "51": {
+    "description": "The specified path is too long.",
+    "action": "Shorten directory or file names. Use paths under OS limits."
+  },
+  "52": {
+    "description": "Access denied.",
+    "action": "Validate NTFS or share permissions for involved folders/files."
+  },
+  "53": {
+    "description": "Network unreachable.",
+    "action": "Check your connection, gateway, and IP settings. Run diagnostics."
+  },
+  "54": {
+    "description": "Protocol error.",
+    "action": "Ensure client and server versions are compatible. Restart services if needed."
+  },
+  "55": {
+    "description": "File in use.",
+    "action": "Close applications using the file. Retry once file lock is released."
+  },
+  "56": {
+    "description": "Configuration error.",
+    "action": "Review config files or settings in the DEOFAST UI. Fix missing or invalid values."
+  },
+  "57": {
+    "description": "License error.",
+    "action": "Validate or renew the DEOFAST license file. Contact vendor if expired."
+  },
+  "58": {
+    "description": "The system clock is incorrect.",
+    "action": "Sync system date/time. Incorrect clocks can cause issues with SSL or logs."
+  }
+}
